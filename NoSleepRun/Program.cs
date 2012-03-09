@@ -128,6 +128,7 @@ namespace NoSleepRun
         switch (param)
         {
           // Should always be the first argument to parse
+          case "-x":
           case "--silent":
             _silent = true;
             break;

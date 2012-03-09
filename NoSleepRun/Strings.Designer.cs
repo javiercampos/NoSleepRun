@@ -149,16 +149,15 @@ namespace NoSleepRun {
         ///   Looks up a localized string similar to Usage: nosleeprun [OPTIONS] process [args]
         ///This tool prevents Windows from sleeping or hibernating while executing command
         ///  
-        ///  --silent            silent output, do not print anything.
-        ///  -s|--shellexecute   use ShellExecute
-        ///  -u|--username       execute as &lt;username&gt;
-        ///  -p|--password       use &lt;password&gt;
+        ///  -x|--silent                silent output, do not print anything.
+        ///  -s|--shellexecute          use ShellExecute
+        ///  -u|--username &lt;username&gt;   execute as &lt;username&gt;
+        ///  -p|--password &lt;password&gt;   use &lt;password&gt;
         ///{0}      
         ///Remarks:
         /// - Username and Password cannot be used in conjunction with ShellExecute. This is a Windows restriction.
         ///{1}
-        ///Report bugs to &lt;jcl@javiercampos.info&gt;
-        ///.
+        ///Report bugs to &lt;jcl@javiercampos.info&gt;.
         /// </summary>
         internal static string UsageString {
             get {
